@@ -1,0 +1,115 @@
+{
+    "orders": [
+        {
+            "totalPrice": 56,
+            "orderList": [{
+                "number": 44,
+                "price": 56,
+                "name": "PrideAndPrejudice",
+                "description": "the second novel by Jane Austen",
+                "category": "novel",
+                "sales": 101
+            }],
+            "numList": [1],
+            "customerName": "Sid",
+            "status": true
+        },
+        {
+            "totalPrice": 200,
+            "orderList": [{
+                "number": 3,
+                "price": 100,
+                "name": "Real Analysis",
+                "description": "introduction of real analysis",
+                "category": "textbook",
+                "sales": 24
+            }],
+            "numList": [2],
+            "customerName": "David",
+            "status": false
+        },
+        {
+            "totalPrice": 3,
+            "orderList": [{
+                "number": 2,
+                "price": 3,
+                "name": "test1",
+                "description": "tesing set the description of a book",
+                "category": "testBook",
+                "sales": 1
+            }],
+            "numList": [1],
+            "customerName": "testCustomer",
+            "status": false
+        },
+        {
+            "totalPrice": 203,
+            "orderList": [
+                {
+                    "number": 21,
+                    "price": 100,
+                    "name": "Real Analysis",
+                    "description": "introduction of real analysis",
+                    "category": "textbook",
+                    "sales": 26
+                },
+                {
+                    "number": 1,
+                    "price": 3,
+                    "name": "test1",
+                    "description": "tesing set the description of a book",
+                    "category": "testBook",
+                    "sales": 2
+                }
+            ],
+            "numList": [
+                2,
+                1
+            ],
+            "customerName": "John",
+            "status": false
+        }
+    ],
+    "wareHouse": [
+        {
+            "number": 21,
+            "price": 100,
+            "name": "Real Analysis",
+            "description": "introduction of real analysis",
+            "category": "textbook",
+            "sales": 26
+        },
+        {
+            "number": 10,
+            "price": 30,
+            "name": "CPSC210 Notes",
+            "description": "course notes for CPSC210",
+            "category": "notes",
+            "sales": 53
+        },
+        {
+            "number": 44,
+            "price": 56,
+            "name": "PrideAndPrejudice",
+            "description": "the second novel by Jane Austen",
+            "category": "novel",
+            "sales": 101
+        },
+        {
+            "number": 101,
+            "price": 3,
+            "name": "test1",
+            "description": "tesing set the description of a book",
+            "category": "testBook",
+            "sales": 2
+        },
+        {
+            "number": 200,
+            "price": 2,
+            "name": "test2",
+            "description": "this is a test book 2",
+            "category": "testBook",
+            "sales": 0
+        }
+    ]
+}

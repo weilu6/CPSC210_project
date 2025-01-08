@@ -1,0 +1,70 @@
+{
+    "wareHouse": [
+        {
+            "name": "testBook1",
+            "price": 5,
+            "description": "This is test book 1",
+            "category": "cate1",
+            "number": 3,
+            "sales": 1
+        },
+        {
+            "name": "testBook2",
+            "price": 10,
+            "description": "This is test book 2",
+            "category": "cate2",
+            "number": 4,
+            "sales": 0
+        },
+        {
+            "name": "testBook3",
+            "price": 15,
+            "description": "This is test book 3",
+            "category": "cate3",
+            "number": 5,
+            "sales": 10
+        }
+    ],
+    "orders": [
+        {
+            "customerName": "testCustomer1",
+            "orderList": [
+                {
+                    "name": "testBook1",
+                    "price": 5,
+                    "description": "This is test book 1",
+                    "category": "cate1",
+                    "number": 3,
+                    "sales": 1
+                },
+                {
+                    "name": "testBook2",
+                    "price": 10,
+                    "description": "This is test book 2",
+                    "category": "cate2",
+                    "number": 4,
+                    "sales": 0
+                }
+            ],
+            "numList": [2,3],
+            "totalPrice": 40,
+            "status": false
+        },
+        {
+            "customerName": "testCustomer2",
+            "orderList": [
+                {
+                    "name": "testBook3",
+                    "price": 15,
+                    "description": "This is test book 3",
+                    "category": "cate3",
+                    "number": 5,
+                    "sales": 10
+                }
+            ],
+            "numList": [1],
+            "totalPrice": 15,
+            "status": true
+        }
+    ]
+}
